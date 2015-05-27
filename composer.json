@@ -22,16 +22,10 @@
   "require-dev": {
     "phpunit/phpunit": "~4.6",
     "symfony-cmf/testing": "1.2.*",
-    "symfony/yaml": "~2.3",
     "twig/extensions": "~1.0",
     "symfony/assetic-bundle": "~2.3",
     "symfony/swiftmailer-bundle": "~2.3",
-    "symfony/monolog-bundle": "~2.3",
-    "symfony/twig-bundle": "~2.3",
-    "doctrine/orm": "~2.2,>=2.2.3,<2.5",
-    "doctrine/doctrine-fixtures-bundle": "2.2.*",
-    "doctrine/dbal": "<2.5",
-    "doctrine/doctrine-bundle": "~1.2"
+    "symfony/monolog-bundle": "~2.3"
   },
   "autoload": {
     "psr-4": { "UniqueLibs\\EmberDataSerializerBundle\\": "" }

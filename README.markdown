@@ -14,6 +14,8 @@ Features include:
 
 **Note:** This bundle does *not* provide an rest api system.
 
+[![Build Status](https://api.travis-ci.org/UniqueLibs/ember-data-serializer-bundle.png?branch=master)](https://travis-ci.org/UniqueLibs/ember-data-serializer-bundle)
+
 Documentation
 -------------
 
