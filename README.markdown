@@ -24,8 +24,6 @@ file in this bundle:
 
 [Read the Documentation for master](https://github.com/UniqueLibs/ember-data-serializer-bundle/blob/master/Resources/doc/index.md)
 
-[Read the Documentation for 1.0.x](https://github.com/UniqueLibs/ember-data-serializer-bundle/blob/1.0.x/Resources/doc/index.md)
-
 Installation
 ------------
 
