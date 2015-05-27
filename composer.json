@@ -25,7 +25,8 @@
     "twig/extensions": "~1.0",
     "symfony/assetic-bundle": "~2.3",
     "symfony/swiftmailer-bundle": "~2.3",
-    "symfony/monolog-bundle": "~2.3"
+    "symfony/monolog-bundle": "~2.3",
+    "doctrine/doctrine-bundle": "~1.2"
   },
   "autoload": {
     "psr-4": { "UniqueLibs\\EmberDataSerializerBundle\\": "" }
