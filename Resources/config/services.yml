@@ -1,0 +1,5 @@
+services:
+    unique_libs.ember_data_serializer.manager:
+        class: UniqueLibs\EmberDataSerializerBundle\Services\EmberDataSerializerManager
+        calls:
+            - [setContainer, [@service_container]]

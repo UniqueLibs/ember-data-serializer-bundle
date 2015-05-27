@@ -1,0 +1,39 @@
+{
+  "name": "uniquelibs/ember-data-serializer-bundle",
+  "type": "symfony-bundle",
+  "description": "A powerful symfony bundle to create secure and flexible ember data rest apis.",
+  "keywords": ["Ember", "Rest", "API"],
+  "homepage": "https://github.com/UniqueLibs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marvin Rind",
+      "email": "kontakt@marvinrind.de"
+    },
+    {
+      "name": "Unique Libs Community",
+      "homepage": "https://github.com/UniqueLibs/ember-data-serializer-bundle/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": "~2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6",
+    "symfony-cmf/testing": "1.2.*",
+    "symfony/yaml": "~2.3",
+    "twig/extensions": "~1.0",
+    "symfony/assetic-bundle": "~2.3",
+    "symfony/swiftmailer-bundle": "~2.3",
+    "symfony/monolog-bundle": "~2.3",
+    "symfony/twig-bundle": "~2.3",
+    "doctrine/orm": "~2.2,>=2.2.3,<2.5",
+    "doctrine/doctrine-fixtures-bundle": "2.2.*",
+    "doctrine/dbal": "<2.5",
+    "doctrine/doctrine-bundle": "~1.2"
+  },
+  "autoload": {
+    "psr-4": { "UniqueLibs\\EmberDataSerializerBundle\\": "" }
+  }
+}

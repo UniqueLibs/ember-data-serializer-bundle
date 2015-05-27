@@ -1,0 +1,6 @@
+services:
+    unique_libs.test.ember_data_serializer_adapter.test_user:
+        class: UniqueLibs\EmberDataSerializerBundle\Tests\Model\EmberDataSerializerAdapter\TestUserAdapter
+
+    unique_libs.test.ember_data_serializer_adapter.test_user_group:
+        class: UniqueLibs\EmberDataSerializerBundle\Tests\Model\EmberDataSerializerAdapter\TestUserGroupAdapter
