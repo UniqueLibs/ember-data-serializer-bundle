@@ -168,7 +168,18 @@ class EmberDataSerializerManager implements ContainerAwareInterface
             $recurse = $array[1];
 
             if ($this->isArrayCollection($value)) {
+
+                if (count($value) && is_null($value[0])) {
+                    throw new InvalidEmberDataSerializerInputException("Given array needs to start at zero.");
+                }
+
                 if (count($value) && $value[0] instanceof EmberDataSerializableInterface) {
+
+                    foreach ($value as $var) {
+                        if (!$var instanceof EmberDataSerializableInterface) {
+                            throw new InvalidEmberDataSerializerInputException("Each array element needs to be an instance of EmberDataSerializableInterface.");
+                        }
+                    }
 
                     $allocatedData = array();
 
