@@ -219,7 +219,7 @@ public function defaultAction()
     
     $serializedArray = $emberDataSerializerManager->format($users, UserAdapter::MODEL_NAME_PLURAL);
     
-	return JsonResponse($serializedArray);
+	return JsonResponse($serializedArray); // Better pass through JMSSerializerBundle or FOSRestBundle
 }
 ```
 
@@ -233,6 +233,6 @@ public function defaultAction()
     
     $serializedArray = $emberDataSerializerManager->formatOne($user, UserAdapter::MODEL_NAME_SINGULAR);
     
-	return JsonResponse($serializedArray);
+	return JsonResponse($serializedArray); // Better pass through JMSSerializerBundle or FOSRestBundle
 }
 ```

@@ -13,6 +13,7 @@ Features include:
 - Unit tested
 
 **Note:** This bundle does *not* provide an rest api system.
+You should pass the serialized output through the [JMSSerializerBundle](http://jmsyst.com/bundles/JMSSerializerBundle) or [FOSRestBundle](http://symfony.com/doc/current/bundles/FOSRestBundle/index.html), which uses the JMSSerializerBundle.
 
 [![Build Status](https://api.travis-ci.org/UniqueLibs/ember-data-serializer-bundle.png?branch=master)](https://travis-ci.org/UniqueLibs/ember-data-serializer-bundle)
 
