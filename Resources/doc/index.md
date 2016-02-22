@@ -24,7 +24,7 @@ Please follow these steps:
 Add EmberDataSerializerBundle by running the command:
 
 ``` bash
-$ php composer.phar require uniquelibs/ember-data-serializer-bundle "dev-master"
+$ php composer.phar require uniquelibs/ember-data-serializer-bundle "~1.0"
 ```
 
 Composer will install the bundle to your project's `vendor/UniqueLibs` directory.
