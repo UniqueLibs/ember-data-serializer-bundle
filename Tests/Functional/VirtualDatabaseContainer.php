@@ -25,11 +25,17 @@ class VirtualDatabaseContainer
         $this->userGroups = array();
     }
 
+    /**
+     * @param TestUser $user
+     */
     public function addTestUser(TestUser $user)
     {
         $this->users[] = $user;
     }
 
+    /**
+     * @param TestUserGroup $userGroup
+     */
     public function addTestUserGroup(TestUserGroup $userGroup)
     {
         $this->userGroups[] = $userGroup;
