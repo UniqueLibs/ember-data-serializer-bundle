@@ -11,6 +11,8 @@ Features include:
 - Supports ember data async loading
 - Immune to never ending loops
 - Unit tested
+- Symfony 3.0 Support
+- PHP 7.0 Support
 
 **Note:** This bundle does *not* provide an rest api system.
 You should pass the serialized output through the [JMSSerializerBundle](http://jmsyst.com/bundles/JMSSerializerBundle) or [FOSRestBundle](http://symfony.com/doc/current/bundles/FOSRestBundle/index.html), which uses the JMSSerializerBundle.
