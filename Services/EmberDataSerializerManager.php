@@ -235,9 +235,9 @@ class EmberDataSerializerManager implements ContainerAwareInterface
             } else {
 
                 if ($plural) {
-                    $this->data[$adapter->getModelNamePlural()][$index][$key] = $value;
+                    $this->data[$adapter->getModelNamePlural()][$index][$key] = $value instanceof \DateTime ? $value->format('c') : $value;
                 } else {
-                    $this->data[$adapter->getModelNameSingular()][$key] = $value;
+                    $this->data[$adapter->getModelNameSingular()][$key] = $value instanceof \DateTime ? $value->format('c') : $value;
                 }
 
             }
